@@ -1,0 +1,21 @@
+{
+  "name": "express-api-example",
+  "version": "1.0.0",
+  "description": "Example of a REST API built with Express.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "rest"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "*",
+    "cheerio": "*",
+    "express": "*"
+  }
+}
