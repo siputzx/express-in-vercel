@@ -5,6 +5,7 @@ const cheerio = require("cheerio");
 const app = express();
 const port = 3000;
 
+//scraper by miftah
 async function nexLibur() {
   const { data } = await axios.get("https://www.liburnasional.com/");
   let libnas_content = [];
