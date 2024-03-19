@@ -3,6 +3,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 
 const app = express();
+app.set("json spaces", 2);
 const port = 3000;
 
 //scraper by miftah
